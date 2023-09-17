@@ -1,0 +1,24 @@
+# Site settings
+title: Brikked Homepage
+description: Home of to the Brikked blog
+email: landonclark97@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.brikked.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+github_username: landonclark97
+
+# Exclude from processing (Optional)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Other optional settings
+permalink: /:categories/:year/:month/:day/:title.html
+paginate: 5
